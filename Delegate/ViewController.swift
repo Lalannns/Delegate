@@ -15,6 +15,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func openModalView(_ sender: Any) {
+        
+        let modalView = storyboard?.instantiateViewController(withIdentifier: "ModalViewController") as! ModalViewController
+        
+        present(modalView, animated: true)
+        
     }
     
 }
