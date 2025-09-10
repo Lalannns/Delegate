@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         
         let modalView = storyboard?.instantiateViewController(withIdentifier: "ModalViewController") as! ModalViewController
         
+        modalView.modalPresentationStyle = .overCurrentContext
+        
         present(modalView, animated: true)
         
     }
