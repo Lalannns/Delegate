@@ -70,6 +70,9 @@
                             <constraint firstItem="sSy-F5-Skb" firstAttribute="bottom" secondItem="IxT-xe-Dvm" secondAttribute="bottom" constant="100" id="yiv-Gq-NfP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="IxT-xe-Dvm" id="t2T-Sp-K3o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emB-tm-tKc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
