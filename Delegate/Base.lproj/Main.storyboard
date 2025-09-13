@@ -64,14 +64,15 @@
                             <constraint firstItem="sSy-F5-Skb" firstAttribute="trailing" secondItem="IxT-xe-Dvm" secondAttribute="trailing" constant="100" id="Fno-yP-Nd8"/>
                             <constraint firstItem="IxT-xe-Dvm" firstAttribute="top" secondItem="sSy-F5-Skb" secondAttribute="top" constant="100" id="Kj9-gu-zzL"/>
                             <constraint firstItem="sSy-F5-Skb" firstAttribute="bottom" secondItem="IxT-xe-Dvm" secondAttribute="bottom" constant="100" id="gdY-IO-GRT"/>
-                            <constraint firstItem="IxT-xe-Dvm" firstAttribute="top" secondItem="sSy-F5-Skb" secondAttribute="top" constant="100" id="p5K-F0-mIr"/>
                             <constraint firstItem="IxT-xe-Dvm" firstAttribute="leading" secondItem="sSy-F5-Skb" secondAttribute="leading" constant="100" id="qvA-qh-SqC"/>
                             <constraint firstItem="IxT-xe-Dvm" firstAttribute="leading" secondItem="sSy-F5-Skb" secondAttribute="leading" constant="100" id="rMF-mr-Kjq"/>
                             <constraint firstItem="sSy-F5-Skb" firstAttribute="bottom" secondItem="IxT-xe-Dvm" secondAttribute="bottom" constant="100" id="yiv-Gq-NfP"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bottomConst" destination="gdY-IO-GRT" id="N5p-tR-K2K"/>
                         <outlet property="tableView" destination="IxT-xe-Dvm" id="t2T-Sp-K3o"/>
+                        <outlet property="topConst" destination="Kj9-gu-zzL" id="ghC-gW-bHs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emB-tm-tKc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

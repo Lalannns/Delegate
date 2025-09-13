@@ -20,7 +20,12 @@ class ViewController: UIViewController {
         
         modalView.modalPresentationStyle = .overCurrentContext
         
+        modalView.categoryArray = ["Food","Clothing","Electronics","Other"]
+        
         present(modalView, animated: true)
+        
+    
+        
         
     }
     
