@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var selectCategoryButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -20,13 +22,14 @@ class ViewController: UIViewController {
         
         modalView.modalPresentationStyle = .overCurrentContext
         
-        modalView.categoryArray = ["Food","Clothing","Electronics","Other"]
+        modalView.typeArray = ["Food","Clothing","Electronics","Other"]
         
         present(modalView, animated: true)
         
+    }
     
-        
-        
+    func setCategory (category: String) {
+        selectCategoryButton.setTitle(category, for: .normal)
     }
     
 }
